@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+.eslogan{
+    height: auto;
+    margin-top: 4.5vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    user-select: none;
+}
+.about{
+    height: auto;
+    width: auto;
+}
+.block{
+    text-align: center;
+}
+
+.block-info{
+    width: 25%;
+    text-align: justify;
+    /* background-color: bisque; */
+}
+
+.h2-about{
+    font-weight: 400;
+    font-size: 2.7em;
+}
+
+.h3-about{
+    font-size: 1.9em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.h4-about{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.sqrs{
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.squares{
+    /* background-color: aquamarine; */
+    margin: auto;
+    width:50%;
+}
+.square-container{
+    width: 100%;
+    background-color: aqua;
+}
+.square{
+    height: 18em;
+    width: 50%;
+    margin: 1em -1em 0em -1em;
+    padding: 2em;
+    background-color: var(--kairos-green);
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /*justify-content: center; */
+    /* gap: 10%; */
+    text-align: center;
+}
+.square.dark{
+    background-color: var(--lightGray);
+    color: var(--kairos-green);
+}
+.icon{
+    font-size: 16vh;
+}
+.dark{
+    color: #1f5e58;
+}
+
+@media(max-width: 1400px){
+    .sqrs{
+        font-size: 0.5em;
+        word-wrap: break-word;
+        height: auto;
+    }
+    .square{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10%;
+        width: 100%;
+    }
+    .icon{
+        font-size: 6em;
+        margin-bottom: -0.5em;
+    }
+    .eslogan{
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+    .eslogan img{
+        height: 22em;
+        margin-top: 2em;
+    }
+    .eslogan .columns{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .column{
+        display:flex;
+        width: auto;
+        flex-wrap: nowrap;
+        background-color: #1f5e58;
+    }
+}
+
+@media(max-width: 1980px){
+    .sqrs{
+        height: auto;
+    }
+    .square{
+        font-size: 0.8em;
+    }
+    .icon{
+        font-size: 7em;
+    }
+}

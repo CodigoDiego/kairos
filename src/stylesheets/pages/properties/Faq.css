@@ -1,0 +1,43 @@
+.qa-card{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* background-color: azure; */
+  }
+  
+  .faqs-card-icon{
+    width: 5rem;
+    height: 5rem;
+    border: solid 3px var(--white);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:1em;
+  }
+  
+  .faqs-inner-icon{
+    height: 4em;
+    width: 4em;
+    font-size: 2.2em;
+    text-align: center;
+    color: white;
+    margin-top: 3em;
+  }
+  
+  .faqs-card-text{
+    width: 80%;
+    text-justify:distribute;
+    text-justify:inter-word;
+  }
+  
+  .faqs-card-text h3{
+    font-size: 1.4em;
+    /* background-color: aqua; */
+  }
+  .faqs-card-text h4{
+    /* background-color:aliceblue; */
+    font-size: 1em;
+    color: var(--white);
+    margin: 0;
+  }

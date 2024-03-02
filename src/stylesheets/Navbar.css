@@ -1,0 +1,45 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:linear-gradient(to left,#30a69a,#52E2D4);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em 7em;
+    z-index: 3;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 0.5rem 0.8rem;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+nav ul li :hover{
+    color: #1f5e58;
+}
+
+img{
+    height: 2.5em;
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li a{
+        font-size: 0.8em;
+        padding: 0.5em;
+    }
+    img{
+        height: 1.5em;
+    }
+    nav{
+        padding: 1.3em 2em;
+    }
+}

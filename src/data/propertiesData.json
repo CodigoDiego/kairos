@@ -1,0 +1,158 @@
+[
+    {
+      "id": 1,
+      "surface":"870",
+      "name": "Skyline Executive Tower",
+      "location": "New Lauvon",
+      "bedrooms": "N/A",
+      "bathrooms": 6,
+      "floors": 6,
+      "garage": "Underground",
+      "image":"images/properties/1/1.jpg",
+      "description": "Una casa elegante con impresionantes vistas panorámicas."
+    },
+    {
+      "id": 2,
+      "name": "Woodland Retreat",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garage": "2 cars",
+      "floors": 3,
+      "surface":"448",
+      "location": "Cuelma",
+      
+      "image":"images/properties/2/2.jpg",
+      "description": "Un apartamento moderno perfecto para la vida urbana."
+    },
+    {
+      "id": 3,
+      "name": "Coastal Charm Residences",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garage": "3 cars",
+      "floors": 2,
+      "surface": 2500,
+      "location": "Colorado, USA",
+      "image":"images/properties/3/3.jpg",
+      
+      "description": "A charming house nestled in the woods, offering breathtaking views of the Rocky Mountains."
+    },
+    {
+      "id": 4,
+      "name": "City Center Loft",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garage": "1 car",
+      "floors": 1,
+      "surface": 1200,
+      "location": "Paris, France",
+      "image":"images/properties/4/4.jpg",
+      
+      "description": "A stylish loft apartment located in the heart of Paris, just steps away from iconic landmarks."
+    },
+    {
+      "id": 5,
+      "name": "Coastal Haven",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "garage": "3 cars",
+      "floors": 3,
+      "surface": 3800,
+      "location": "Sydney, AU",
+      "image":"images/properties/5/5.jpg",
+      
+      "description": "A luxurious beachfront villa offering stunning ocean views and unparalleled tranquility."
+    },
+    {
+      "id": 6,
+      "name": "Mountain View Chalet",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garage": "2 cars",
+      "floors": 2,
+      "surface": 1800,
+      "location": "Vancouver, CA",
+      "image":"images/properties/6/6.jpg",
+      
+      "description": "A cozy chalet nestled in the mountains, offering stunning views of the Pacific Northwest."
+    },
+    {
+      "id": 7,
+      "name": "Urban Oasis Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garage": "4 cars",
+      "floors": 1,
+      "surface": 2200,
+      "location": "Dubai, ARE",
+      "image":"images/properties/7/7.jpg",
+      
+      "description": "A luxurious penthouse with panoramic city views, located in the heart of Dubai's vibrant downtown."
+    },
+    {
+      "id": 8,
+      "name": "Seaside Cottage Retreat",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garage": "1 car",
+      "floors": 1,
+      "surface": 1000,
+      "location": "Cape Town, ZA",
+      "image":"images/properties/8/8.jpg",
+      
+      "description": "A charming seaside cottage offering breathtaking ocean vistas and direct beach access."
+    },
+    {
+      "id": 9,
+      "name": "Riverside Estate",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "garage": "4 cars",
+      "floors": 3,
+      "surface": 4000,
+      "location": "London, GBR",
+      "image":"images/properties/9/9.jpg",
+      
+      "description": "An elegant riverside estate boasting timeless architecture and exquisite interior design, nestled in the heart of London."
+    },
+    {
+      "id": 10,
+      "name": "Cityscape Loft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garage": "N/A",
+      "floors": 1,
+      "surface": 800,
+      "location": "Tokyo, JPN",
+      "image":"images/properties/10/10.jpg",
+      
+      "description": "A sleek and modern loft apartment with panoramic city views, situated in the bustling metropolis of Tokyo."
+    },
+    {
+      "id": 11,
+      "name": "Sunny Beach Villa",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garage": "2 cars",
+      "floors": 2,
+      "surface": 2000,
+      "location": "Barcelona,ES",
+      "image":"images/properties/11/11.jpeg",
+      
+      "description": "A beautiful villa with a private pool and stunning views of the Mediterranean Sea, located in the vibrant city of Barcelona, Spain (ES)."
+    },
+    {
+      "id": 12,
+      "name": "Lakefront Retreat",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garage": "3 cars",
+      "floors": 2,
+      "surface": 2500,
+      "location": "Zurich, CH",
+      "image":"images/properties/12/12.jpg",
+      
+      "description": "A serene lakefront property nestled in the Swiss Alps, offering luxurious amenities and breathtaking mountain vistas in Zurich, Switzerland (CH)."
+    }
+
+  ]

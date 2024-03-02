@@ -1,0 +1,19 @@
+.properties{
+    box-sizing: border-box;
+    margin-top: 3.5em;
+    height: auto;
+    padding: 0;
+    background-color: var(--darkGray);
+}
+.cards-wrapper{
+    margin: auto;
+    width: 95%;
+    height: auto;
+    background-color: var(--darkGray);
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* background-color: aqua; */
+}
