@@ -4,7 +4,6 @@
 .eslogan{
     height: auto;
     margin-top: 4.5vh;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
 }
@@ -50,7 +49,6 @@
     flex-wrap: wrap;
 }
 .squares{
-    /* background-color: aquamarine; */
     margin: auto;
     width:50%;
 }
@@ -65,10 +63,7 @@
     padding: 2em;
     background-color: var(--kairos-green);
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
-    /*justify-content: center; */
-    /* gap: 10%; */
     text-align: center;
 }
 .square.dark{
@@ -115,18 +110,46 @@
         display:flex;
         width: auto;
         flex-wrap: nowrap;
-        background-color: #1f5e58;
     }
 }
 
-@media(max-width: 1980px){
+@media(max-width: 600px){
     .sqrs{
         height: auto;
+    }
+    .info{
+        width: auto;
+    }
+    .info h2{
+        font-size: 1.6em;
+    }
+    .info h3{
+        font-size: 1em;
+    }
+    .columns{
+        padding: 1em;
     }
     .square{
         font-size: 0.8em;
     }
     .icon{
         font-size: 7em;
+    }
+    .image{
+        height: 14em;
+    }
+    .eslogan img{
+        height: 180px;
+        width: 200px;
+    }
+    .column{
+        display: block;
+    }
+    .block-info{
+        width: 100%;
+    }
+    .block-info h3{
+        text-align: center;
+        margin-top: 1em;
     }
 }

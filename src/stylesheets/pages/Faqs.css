@@ -1,7 +1,7 @@
 .cont-faqs{
   width: 100%;
   height: auto;
-  margin-top: 4.5em;
+  margin-top: 4.3em;
 }
 .qa{
   height:auto;
@@ -33,3 +33,10 @@
   margin-left: -1em;
 }
 
+@media (max-width:600px){
+  .faqs-icon{
+    width: 5em;
+    height: 3em;
+    margin-right: 2em;
+  }
+}

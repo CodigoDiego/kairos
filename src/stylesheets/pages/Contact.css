@@ -63,3 +63,20 @@ width:47rem;
 label{
     margin-bottom: 3em;
 }
+
+@media (max-width:600px){
+    .bg{
+        margin-top: 3.95em;
+        width: auto;
+        height: 93vh;
+    }
+    form label{
+        font-size: 1.5em;
+    }
+    input{
+        width: 28em;
+    }
+    .submit{
+        width: 28em;
+    }
+}

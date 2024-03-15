@@ -15,5 +15,12 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    /* background-color: aqua; */
+}
+
+@media (max-width:600px){
+    .cards-wrapper{
+        padding: 1em;
+        display: block;
+        margin-top: 1em;
+    }
 }

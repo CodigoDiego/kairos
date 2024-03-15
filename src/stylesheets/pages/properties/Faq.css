@@ -33,11 +33,38 @@
   
   .faqs-card-text h3{
     font-size: 1.4em;
-    /* background-color: aqua; */
   }
   .faqs-card-text h4{
-    /* background-color:aliceblue; */
     font-size: 1em;
     color: var(--white);
     margin: 0;
+  }
+
+  @media (max-width:600px){
+    .header-faqs{
+      display: block;
+    }
+    .header-faqs h3{
+      font-size: 2em;
+    }
+    .header-faqs p{
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    .header-faqs div{
+      width: auto;
+    }
+    .faqs-icon{
+      margin: 0;
+    }
+    .qa{
+      display: block;
+    }
+    .qa-card{
+      width: 100%;
+      margin-bottom: 2em;
+    }
+    .section{
+      padding: 1em;
+    }
   }
