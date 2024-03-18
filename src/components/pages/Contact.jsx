@@ -30,7 +30,8 @@ export const Contact = () => {
             <h3>CONTACT</h3>
             <h4>Have any questions? Send us your contact info to solve them</h4>
             </div>
-            <div class="form-content">
+            
+              <div className='form'>
                 <form ref={form} onSubmit={sendEmail} class="contact-form">
                     <div class="form-row">
                         <label for="name">Name </label><br/>
@@ -52,7 +53,8 @@ export const Contact = () => {
                         <input class="submit" type="submit" value="Send"/>
                     </div>
                 </form>
-            </div>
+              </div>  
+            
         </div>
       <ToastContainer position='top-center' theme='colored'/>
   </>)

@@ -11,6 +11,7 @@
 .photo-reel{
     position: relative;
     margin-top: 5.4em;
+    height: 33.33%;
     padding: 0;
 }
 .video-bg{
@@ -75,12 +76,12 @@ h4{
 .review-wrapper{
   background-color: var(--darkGray);
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 5em;
   user-select: none;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1024px) {
     .photo-reel{
         height:20%;
         font-size: 0.8em;
@@ -100,7 +101,7 @@ h4{
         width: 100%;
         font-size: 0.8em;
         padding: 3em;
-        height:59vh
+        height:65vh
     }
     .h3-home{
         font-size: 1.6em;
@@ -108,8 +109,11 @@ h4{
 }
 
 @media (max-width:600px) {
+    .overlay{
+        margin-left: -1em;
+    }
     .review-wrapper{
-        height:67.5vh;
+        height:66vh;
     }
 }
 
